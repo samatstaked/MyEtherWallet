@@ -5,6 +5,7 @@ import makerDaiRoutes from './MakerDai/routes';
 import makerSaiRoutes from './MakerSai/routes';
 import ambrpayRoutes from './Ambrpay/routes';
 import aaveRoutes from './Aave/routes';
+import rayRoutes from './RAY/routes';
 
 const routes = {
   manageENS: manageENSRoutes,
@@ -13,7 +14,8 @@ const routes = {
   makerDaiRoutes: makerDaiRoutes,
   aaveDLP: aaveRoutes,
   makerSaiRoutes: makerSaiRoutes,
-  amberpay: ambrpayRoutes
+  amberpay: ambrpayRoutes,
+  ray: rayRoutes
 };
 
 export default routes;

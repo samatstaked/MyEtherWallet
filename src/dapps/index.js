@@ -9,6 +9,7 @@ import makerdaiDisabled from '@/assets/images/icons/dapps/makerdai-disabled.svg'
 import ambrpay from '@/assets/images/icons/dapps/ambrpay.png';
 import ambrpayDisabled from '@/assets/images/icons/dapps/ambrpay-disabled.png';
 import aave from '@/assets/images/icons/dapps/aave.svg';
+import ray from '@/assets/images/icons/dapps/ray.svg';
 import { ETH, GOERLI, ROP, RIN, KOV } from '@/networks/types';
 
 const dapps = {
@@ -81,6 +82,15 @@ const dapps = {
     supportedNetworks: [ETH.name],
     lastUpdated: '2/26/2020',
     releaseDate: '2/26/2020'
+  },
+  ray: {
+    route: '/interface/dapps/ray',
+    icon: ray,
+    title: 'Robo-Advisor for Yield (RAY)',
+    desc: 'Earn the highest yield in DeFi on ETH, DAI, and USDC.',
+    supportedNetworks: [ETH.name],
+    lastUpdated: '04/10/2020',
+    releaseDate: '04/10/2020'
   }
 };
 
